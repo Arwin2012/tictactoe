@@ -76,3 +76,6 @@ while No_winner:
     if board[2] == "O" and board[4] == "O" and board[6] == "O":
         print("O wins!")
         break
+
+def is_winner(a:str,b:str,c:str  ) -> bool:
+    return a == b == c
